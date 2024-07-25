@@ -4,6 +4,7 @@
   "description": "https://www.youtube.com/watch?v=vwNklJxbsw0&ab_channel=Aprendible",
   "scripts": {
     "dev": "vite dev",
+    "build:css": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "build": "vite build",
     "preview": "vite preview"
   },
